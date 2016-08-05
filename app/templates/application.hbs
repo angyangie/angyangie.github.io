@@ -1,0 +1,85 @@
+<header>
+<div class="navbar">
+
+  <div class="navbar-header">
+    <div class="container">
+
+      <ul class="info pull-left">
+        <li>{{fa-icon "envelope"}} angie.ramirez12@gmai.com</li>
+        <li>{{fa-icon "mobile"}}   908.451.0622</li>
+      </ul>
+
+      <ul class="social pull-right">
+        <li><a href="http://learn.co/angyangie/resume"><i class="fa fa-file-text-o"></i></a></li>
+        <li><a href="https://github.com/angyangie">{{fa-icon "github"}}</a></li>
+        <li><a href="https://www.linkedin.com/in/angelaramirez">{{fa-icon "linkedin"}}</a></li>
+        <li><a href="https://twitter.com/_AngieRamirez">{{fa-icon "twitter"}}</a></li>
+      </ul><!-- /.social -->
+
+      <!-- LOGO -->
+      {{#link-to "about" class="navbar-brand logo skrollable skrollable-before"}}<img src="images/Logo2.png">{{/link-to}}
+
+
+      <!-- LOGO  -->
+
+      <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse" ><i class='icon-menu-1'></i></a>
+
+    </div><!-- /.container -->
+
+  </div><!-- /.navbar-header -->
+
+  <div class="yamm">
+  <div class="sticky-wrapper">
+  <div>
+    <div class="navbar-collapse collapse" style="float:none; width:100%">
+      <div class="container" >
+
+
+        {{#link-to "about" class="navbar-brand skrollable skrollable-before logo" }}<img src="images/Logo2.png">{{/link-to}}
+        
+
+       <ul class="nav navbar-nav pull-right">
+
+          <li >
+              {{#link-to "about"}}About{{/link-to}}
+          </li>
+
+      
+          <li>
+            {{#link-to "projects" }}Projects{{/link-to}}
+          </li>
+    
+          <li>
+             {{#link-to "professional-experience"}}Professional Experience{{/link-to}}
+           </li>
+
+          <li>
+            {{#link-to "publications"}}Publications{{/link-to}}
+          </li>
+        </ul>
+
+ </div><!-- /.container -->
+</div><!-- /.navbar-collapse -->
+</div>
+</div> <!-- sticky wrapper -->
+</div><!-- /.yamm -->
+
+</div><!-- /.navbar -->
+
+</header>
+
+{{outlet}}
+
+<footer>
+  <div class="footer-bottom">
+    <div class="container inner">
+      <p class="pull-left">Angie Ramirez</p>
+      <ul class="footer-menu pull-right">
+        <li>{{#link-to "about"}}About{{/link-to}}</li>
+        <li>{{#link-to "projects"}}Projects{{/link-to}}</li>
+        <li>{{#link-to "professional-experience"}}Professional Experience{{/link-to}}</li>
+        <li>{{#link-to "publications"}}Publications{{/link-to}}</li>
+      </ul><!-- .footer-menu -->
+    </div><!-- .container -->
+  </div><!-- .footer-bottom -->
+</footer>
