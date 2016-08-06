@@ -12,8 +12,12 @@
   
       {{#if post.image_url}}
         <a href="{{post.url}}">
-
-        <div class="post-img" style="background-image: url({{post.image_url}})"></div></a>
+        <div class="blogpost-description">
+        <img src="{{post.image_url}}">
+        </div>
+        </a>
+        <br>
+        <!-- <div class="post-img" style="background-image: url({{post.image_url}})"></div></a> -->
       {{/if}}
 
       {{#if post.subtitle}}
