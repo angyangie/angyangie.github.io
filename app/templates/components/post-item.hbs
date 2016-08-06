@@ -2,16 +2,16 @@
 {{#each posts as |post|}}
   {{#if post.isBlogPost}}
     
-    <div class="blogpost-title"><a href="{{post.url}}"><h2>{{post.title}}</h2></a></div>
+    <div class="blogpost-title"><a href="{{post.url}}"  target="_blank"><h2>{{post.title}}</h2></a></div>
     
     <div class="blogpost-description">{{{post.description}}}</div>
   
   {{else}}
     
-      <div class="post-title"><a href="{{post.url}}"><h2>{{post.title}}<br></h2></a></div>
+      <div class="post-title"><a href="{{post.url}}"  target="_blank"><h2>{{post.title}}<br></h2></a></div>
   
       {{#if post.image_url}}
-        <a href="{{post.url}}">
+        <a href="{{post.url}}" target="_blank">
         <div class="blogpost-description">
         <img src="{{post.image_url}}">
         </div>
@@ -40,7 +40,7 @@
       {{/if}}
 
       {{#if post.type}}
-      <a href="{{post.url}}">
+      <a href="{{post.url}}"  target="_blank">
       <div class="post-description">See more on Medium</div></a>
       {{/if}}
       
