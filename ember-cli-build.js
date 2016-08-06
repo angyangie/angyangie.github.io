@@ -31,6 +31,8 @@ module.exports = function(defaults) {
     app.import("vendor/images/battleship.png")
     app.import("vendor/images/lemmen.png")
     app.import("vendor/images/mapping.png")
+    app.import("vendor/images/gvo.jpeg")
+    app.import("vendor/images/MVC.jpeg")
 
     
     app.import("vendor/javascript/html5shiv.js")
@@ -48,7 +50,6 @@ module.exports = function(defaults) {
     app.import("vendor/javascript/owl.carousel.min.js")
     app.import("vendor/javascript/jquery.isotope.min.js")
     app.import("vendor/javascript/jquery.easytabs.min.js")
-    app.import("vendor/javascript/google.maps.api.v3.js")
     app.import("vendor/javascript/viewport-units-buggyfill.js")
     app.import("vendor/javascript/scripts.js")
 

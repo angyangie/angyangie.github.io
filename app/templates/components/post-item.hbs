@@ -34,6 +34,12 @@
 
       {{/each}}</div>
       {{/if}}
+
+      {{#if post.type}}
+      <a href="{{post.url}}">
+      <div class="post-description">See more on Medium</div></a>
+      {{/if}}
+      
   {{/if}}
   <hr>
 {{/each}}
