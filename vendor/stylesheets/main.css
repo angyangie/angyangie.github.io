@@ -1479,6 +1479,7 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus {
+    background: #1ABB9C;
     color: #FFF !important;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -1495,7 +1496,7 @@ aside .thumb figure {
     color: #73879C;
 }
 .navbar-header .info a:hover {
-    color: #E6E9ED;
+    color: #1ABB9C;
 }
 .navbar-form {
     padding: 0;
@@ -1503,7 +1504,7 @@ aside .thumb figure {
 }
 .btn.responsive-menu {
     display: none;
-	
+	 background: #fff
     padding: 0;
     margin: 0;
 }
@@ -1678,7 +1679,7 @@ aside .thumb figure {
 .btn:focus,
 .btn:active,
 .btn.active {
-    background: #17A78B;
+    background: #FFF;
     color: #FFF !important;
     -webkit-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
@@ -1689,57 +1690,57 @@ aside .thumb figure {
 .btn-green:focus,
 .btn-green:active,
 .btn-green.active {
-    background: #17A78B !important;
+    background: #FFF !important;
 }
 .btn-blue:hover,
 .btn-blue:focus,
 .btn-blue:active,
 .btn-blue.active {
-    background: #387EAA !important;
+    background: #FFF !important;
 }
 .btn-red:hover,
 .btn-red:focus,
 .btn-red:active,
 .btn-red.active {
-    background: #CF4C45 !important;
+    background: #FFF !important;
 }
 .btn-pink:hover,
 .btn-pink:focus,
 .btn-pink:active,
 .btn-pink.active {
-    background: #BD78A9 !important;
+    background: #FFF !important;
 }
 .btn-purple:hover,
 .btn-purple:focus,
 .btn-purple:active,
 .btn-purple.active {
-    background: #8A4FA2 !important;
+    background: #FFF !important;
 }
 .btn-orange:hover,
 .btn-orange:focus,
 .btn-orange:active,
 .btn-orange.active {
-    background: #D96716 !important;
+    background: #FFF !important;
 }
 .btn-navy:hover,
 .btn-navy:focus,
 .btn-navy:active,
 .btn-navy.active {
-    background: #2C3E50 !important;
+    background: #FFF !important;
 }
 .btn-gray:hover,
 .btn-gray:focus,
 .btn-gray:active,
 .btn-gray.active {
-    background: #859394 !important;
+    background: #FFF !important;
 }
 .tint-bg .btn {
     background: #FFF !important;
 	color: #1ABB9C !important;
 }
 .tint-bg .btn:hover {
-    background: #E9E9E9 !important;
-    color: #506A85 !important;
+    background: #FFF !important;
+    color: #FFF !important;
 }
 .btn.share-facebook {
     background: #3d5b9b !important
