@@ -1504,7 +1504,7 @@ aside .thumb figure {
 }
 .btn.responsive-menu {
     display: none;
-	 background: #fff
+	 background: #506A85
     padding: 0;
     margin: 0;
 }
@@ -1602,6 +1602,7 @@ aside .thumb figure {
 	margin: 30px 0;
 }
 .btn {
+    color:#506A85;
     padding: 11px 20px 13px;
 	font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -1679,7 +1680,7 @@ aside .thumb figure {
 .btn:focus,
 .btn:active,
 .btn.active {
-    background: #FFF;
+    background: #506A85;
     color: #23527c !important;
     -webkit-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
@@ -1690,13 +1691,13 @@ aside .thumb figure {
 .btn-green:focus,
 .btn-green:active,
 .btn-green.active {
-    background: #FFF !important;
+    background: #506A85 !important;
 }
 .btn-blue:hover,
 .btn-blue:focus,
 .btn-blue:active,
 .btn-blue.active {
-    background: #FFF !important;
+    background: #506A85 !important;
 }
 .btn-red:hover,
 .btn-red:focus,
@@ -1858,7 +1859,7 @@ aside .thumb figure {
 	height: 1.1em;
 	font-family: 'Lato', sans-serif;
 	line-height: 100%;
-	color: #FFF;
+	color: #506A85;
 	margin: auto;
 	opacity: 0;
 }
@@ -1899,7 +1900,7 @@ aside .thumb figure {
 .btn-share-md:hover,
 .btn-share-sm:hover,
 .btn-share-xs:hover {
-	color: #FFF;
+	color: #506A85;
 }
 h1 .btn,
 h2 .btn,
