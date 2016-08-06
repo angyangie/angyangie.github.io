@@ -94,7 +94,7 @@ a {
 }
 a:hover,
 a:focus {
-    color: #1ABB9C;
+    color: #E6E9ED;
     text-decoration: none;
 }
 h1,
@@ -151,7 +151,7 @@ a:hover .logo {
 	opacity: .6;
 }
 a.green:hover {
-    background: #1ABB9C !important;
+    background: #E6E9ED !important;
 }
 a.blue:hover {
     background: #3F8DBF !important;
@@ -192,7 +192,7 @@ ul.arrowed li:before {
     font-family: 'fontello';
 	font-size: 75%;
     font-weight: normal;
-    color: #1ABB9C;
+    color: #E6E9ED;
 	vertical-align: baseline;
     content: '\e846';
 	margin-top: 1px;
@@ -204,7 +204,7 @@ ul.circled li:before {
     content: '\e800';
     font-size: 8px;
     font-weight: normal;
-    color: #1ABB9C;
+    color: #E6E9ED;
     padding-top: 1px;
 	margin-left: -20px;
     vertical-align: top;
@@ -676,7 +676,7 @@ figure.post-media + * {
 	opacity: .57;
 }
 .tint-bg.img-bg-soft:before {
-	background-color: #1ABB9C;
+	background-color: #E6E9ED;
 	opacity: .84;
 }
 .light-bg.img-bg-softer:before {
@@ -688,7 +688,7 @@ figure.post-media + * {
 	opacity: .97;
 }
 .tint-bg.img-bg-softer:before {
-	background-color: #1ABB9C;
+	background-color: #E6E9ED;
 	opacity: .96;
 }
 .screen-container {
@@ -842,7 +842,7 @@ iframe + iframe {
     color: #FFF;
 }
 .tint-bg {
-    background-color: #1ABB9C;
+    background-color: #E6E9ED;
 	color: #FFF;
 	padding: 2px 8px;
 	margin-top: -2px;
@@ -1456,7 +1456,6 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active {
     filter: none;
     background-color: #F5F7FA;
-    color: #1ABB9C;
 }
 .navbar .nav .open > a,
 .navbar .nav .open > a:hover,
@@ -5571,7 +5570,7 @@ input:focus:-ms-input-placeholder {
 		border-top-color: #CED7E0;
 	}
 	.tabs-top .tab.active + .tab a:hover {
-		border-top-color: #1ABB9C;
+		border-top-color: #E6E9ED;
 	}
 	
 	.filter:before, .format-filter:before {
