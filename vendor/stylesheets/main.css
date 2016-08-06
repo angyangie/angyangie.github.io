@@ -1680,7 +1680,7 @@ aside .thumb figure {
 .btn:active,
 .btn.active {
     background: #FFF;
-    color: #FFF !important;
+    color: #b4c0d2 !important;
     -webkit-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
@@ -1739,7 +1739,7 @@ aside .thumb figure {
 	color: #1ABB9C !important;
 }
 .tint-bg .btn:hover {
-    background: #FFF !important;
+    background: #E9E9E9 !important;
     color: #FFF !important;
 }
 .btn.share-facebook {
