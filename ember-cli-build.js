@@ -14,15 +14,8 @@ module.exports = function(defaults) {
   });
 
 
-    app.import("vendor/stylesheets/bootstrap.min.css")
     app.import("vendor/stylesheets/main.css")
-    app.import("vendor/stylesheets/green.css")
-    app.import("vendor/stylesheets/owl.carousel.css")
-    app.import("vendor/stylesheets/owl.transitions.css")
     app.import("vendor/stylesheets/animate.min.css")
-    
-    // <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
-    // <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
   
     app.import("vendor/images/favicon.ico")
     app.import("vendor/images/logoAR.png")
@@ -47,22 +40,10 @@ module.exports = function(defaults) {
     app.import("vendor/javascript/skrollr.stylesheets.min.js")
     app.import("vendor/javascript/waypoints.min.js")
     app.import("vendor/javascript/waypoints-sticky.min.js")
-    app.import("vendor/javascript/owl.carousel.min.js")
     app.import("vendor/javascript/jquery.isotope.min.js")
     app.import("vendor/javascript/jquery.easytabs.min.js")
     app.import("vendor/javascript/viewport-units-buggyfill.js")
     app.import("vendor/javascript/scripts.js")
-
-    //can be removed??
-
-     app.import("vendor/stylesheets/green.css")
-     app.import("vendor/stylesheets/blue.css")
-     app.import("vendor/stylesheets/red.css")
-     app.import("vendor/stylesheets/pink.css")
-     app.import("vendor/stylesheets/purple.css")
-     app.import("vendor/stylesheets/orange.css")
-     app.import("vendor/stylesheets/navy.css")
-     app.import("vendor/stylesheets/gray.css")
 
      app.import("vendor/javascript/switchstylesheet.js")
 

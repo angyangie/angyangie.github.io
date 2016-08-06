@@ -24,20 +24,6 @@ export default Ember.Route.extend({
       dates: "May 2012 - June 2014",
       description: "Teach For America enlists high-achieving recent college graduates and professionals to teach in low-income communities throughout the United States."
     }
-    // {
-    //   title: "",
-    //   subtitle: "",
-    //   dates: "",
-    //   description: "",
-    //   tags: ""
-    // },
-    // {
-    //   title: "",
-    //   subtitle: "",
-    //   dates: "",
-    //   description: "",
-    //   tags: ""
-    // }
     ]
   }
 });
