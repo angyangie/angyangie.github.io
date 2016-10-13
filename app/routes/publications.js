@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   model() {
     return [
-    { 
+    {
       title: "Should APIs Be Protected Under Copyright Law?",
       url: "https://medium.com/@_angieramirez/should-apis-be-protected-under-copyright-law-d6b04ccd8a8c#.dxq7d3bvv",
       image_url: "/images/gvo.jpeg",
@@ -34,12 +34,12 @@ export default Ember.Route.extend({
   //           var url = post.children[2].textContent;
   //           var date = post.children[5].textContent;
   //           posts.push({title:title, description:description, url:url, date:date, isBlogPost:true});
-          
+
   //         }
   //       }
   //       return posts;
   //   });
-  },
+  }
   // afterModel() {
   //   $(document).attr('title', 'Blog | Angie Ramirez');
   // }

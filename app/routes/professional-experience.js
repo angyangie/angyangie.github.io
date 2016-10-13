@@ -8,14 +8,14 @@ export default Ember.Route.extend({
         url: "https://www.buzzfeed.com/",
         subtitle: "Backend Software Engineer, Video",
         dates: "October 2016 - Present",
-        description: "BuzzFeed is a leading independent digital media company delivering news and entertainment to hundreds of millions of people around the world."
+        description: "BuzzFeed is a leading independent digital media company delivering news and entertainment to hundreds of millions of people around the world. I work on their backend video team."
       },
     {
       title: "NimbleStack",
       url: "http://www.nimblestack.io",
       subtitle: "Full Stack Software Developer",
       dates: "June 2016 - September 2016",
-      description: "NimbleStack specializes in emergent technology, simplifying and automating software. At NimbleStack, I develop front-end and back-end of chatbots using Javascript, React.js, Redux, NodeJS, and MongoDB. I integrate Facebook, Gmail, IBM Watson, and other machine learning/artificial intelligence APIs into chatbots."
+      description: "NimbleStack specializes in emergent technology, simplifying and automating software. At NimbleStack, I developed front-end and back-end of chatbots using Javascript, React.js, Redux, NodeJS, and MongoDB. I integrated Facebook, Gmail, IBM Watson, and other machine learning/artificial intelligence APIs into chatbots."
     },
     {
       title: "SeaChange Capital Partners",
